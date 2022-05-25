@@ -7,5 +7,5 @@ This Project is a detector for token grabbers in python this grabber scanns the 
 - webhooks
 - pastebin links
 
-this is not a 100% save way to detect any grabber this just works on standard .py files and not on encrpyted or compiled files it also can have false detections but its good against Skidz
+## This is not a 100% save way to detect any grabber this just works on standard .py files and not on encrpyted or compiled files it also can have false detections but its good against Skidz
   
