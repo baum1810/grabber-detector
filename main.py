@@ -1,6 +1,6 @@
 from os import system
 #coded by https://github.com/baum1810
-words = ["token","appdata","leveldb","Local Storage","discord_webhook","applicationdata","dhooks","grab","steal",".log",".ldb", "webhook",'']
+words = ["token","appdata","leveldb","Local Storage","discord_webhook","applicationdata","dhooks","grab","steal",".log",".ldb", "webhook"]
 paths = ["\\Discord", "\\discordcanary", "\\discordptb", "\\Google\\Chrome\\User Data\\Default", "\\Opera Software\\Opera Stable", "\\BraveSoftware\\Brave-Browser\\User Data\\Default", "\\Yandex\\YandexBrowser\\User Data\\Default", "\\Local Storage\\leveldb"]
 links = ["https://myexternalip.com/raw", "https://api.ipify.org"]
 files = ["Loginvault.db", "passwords.txt", "cookies.txt","\\Google\\Chrome\\User Data\\Default\\Cookies", "Local\\Google\\Chrome\\User Data\\Default\\History", "launcher_accounts.json"]
@@ -135,6 +135,7 @@ def main():
                     if word in line:
                         wordcounter+=1
                         wordlines+=str(counter)+ ','
+                        print(word)
                         #print(f"suspicious word {word} found Line {counter}")
                 for link in links:
                     if link in line:
